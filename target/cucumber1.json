@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-26T01:18:47.765Z",
+        "line": 3,
+        "name": "Verify Get Without Parameters",
+        "description": "",
+        "id": "verify-get-request;verify-get-without-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "I set  GET request",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I not providing any parameters",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Verify status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Content type \"application/json; charset\u003dutf-8\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Verify that name, surname, gender, region fields have value",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Get Request",
+    "description": "",
+    "id": "verify-get-request",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NoParametersTest.feature",
+    "tags": []
+  }
+]
